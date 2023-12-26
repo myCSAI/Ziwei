@@ -1,0 +1,21 @@
+Looking in indexes: http://mirrors.aliyun.com/pypi/simple
+Collecting openai
+  Downloading http://mirrors.aliyun.com/pypi/packages/8a/6c/f345662c586464cbd6185239ddea4d281b623db302115ff7a2bb27db1eea/openai-1.3.4-py3-none-any.whl (220 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 220.5/220.5 kB 86.3 kB/s eta 0:00:00
+Requirement already satisfied: anyio<4,>=3.5.0 in /home/admin1/桌面/ChatGLM3-main/venv/lib/python3.10/site-packages (from openai) (3.7.1)
+Collecting distro<2,>=1.7.0 (from openai)
+  Downloading http://mirrors.aliyun.com/pypi/packages/f4/2c/c90a3adaf0ddb70afe193f5ebfb539612af57cffe677c3126be533df3098/distro-1.8.0-py3-none-any.whl (20 kB)
+Requirement already satisfied: httpx<1,>=0.23.0 in /home/admin1/桌面/ChatGLM3-main/venv/lib/python3.10/site-packages (from openai) (0.25.1)
+Requirement already satisfied: pydantic<3,>=1.9.0 in /home/admin1/桌面/ChatGLM3-main/venv/lib/python3.10/site-packages (from openai) (2.5.1)
+Requirement already satisfied: tqdm>4 in /home/admin1/桌面/ChatGLM3-main/venv/lib/python3.10/site-packages (from openai) (4.66.1)
+Requirement already satisfied: typing-extensions<5,>=4.5 in /home/admin1/桌面/ChatGLM3-main/venv/lib/python3.10/site-packages (from openai) (4.8.0)
+Requirement already satisfied: idna>=2.8 in /home/admin1/桌面/ChatGLM3-main/venv/lib/python3.10/site-packages (from anyio<4,>=3.5.0->openai) (3.4)
+Requirement already satisfied: sniffio>=1.1 in /home/admin1/桌面/ChatGLM3-main/venv/lib/python3.10/site-packages (from anyio<4,>=3.5.0->openai) (1.3.0)
+Requirement already satisfied: exceptiongroup in /home/admin1/桌面/ChatGLM3-main/venv/lib/python3.10/site-packages (from anyio<4,>=3.5.0->openai) (1.1.3)
+Requirement already satisfied: certifi in /home/admin1/桌面/ChatGLM3-main/venv/lib/python3.10/site-packages (from httpx<1,>=0.23.0->openai) (2023.11.17)
+Requirement already satisfied: httpcore in /home/admin1/桌面/ChatGLM3-main/venv/lib/python3.10/site-packages (from httpx<1,>=0.23.0->openai) (1.0.2)
+Requirement already satisfied: annotated-types>=0.4.0 in /home/admin1/桌面/ChatGLM3-main/venv/lib/python3.10/site-packages (from pydantic<3,>=1.9.0->openai) (0.6.0)
+Requirement already satisfied: pydantic-core==2.14.3 in /home/admin1/桌面/ChatGLM3-main/venv/lib/python3.10/site-packages (from pydantic<3,>=1.9.0->openai) (2.14.3)
+Requirement already satisfied: h11<0.15,>=0.13 in /home/admin1/桌面/ChatGLM3-main/venv/lib/python3.10/site-packages (from httpcore->httpx<1,>=0.23.0->openai) (0.14.0)
+Installing collected packages: distro, openai
+Successfully installed distro-1.8.0 openai-1.3.4
